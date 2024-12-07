@@ -1,0 +1,34 @@
+ /* Subtle Gradient Background */
+ body {
+    background: linear-gradient(to right, #f0f4f8, #d9e2e9); /* Light gray to soft blue gradient */
+    color: #333; /* Dark text for readability */
+    font-family: 'Arial', sans-serif; /* Clean and professional font */
+  }
+
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  }
+
+  .btn {
+    border-radius: 25px; /* Rounded buttons for a more modern look */
+  }
+
+  .lead {
+    font-size: 1.25rem; /* Adjust font size for readability */
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  .card-text {
+    font-size: 1rem;
+    color: #555; /* Slightly muted color for text */
+  }
+
+  /* Add padding for better layout */
+  .container {
+    padding: 20px;
+  }
